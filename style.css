@@ -1,4 +1,26 @@
-#p1{
-    background-color: green;
+#img{
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: -10px;
+    background-image: url('image/watermelon.webp');
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
 }
 
