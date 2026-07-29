@@ -2,6 +2,12 @@
     border-radius: 5px;
 }
 
+#inspirational {
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid darkgreen;
+}
+
 h1, nav{
     text-align: center;
 }
