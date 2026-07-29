@@ -2,7 +2,7 @@
     border-radius: 5px;
 }
 
-h1{
+h1, nav{
     text-align: center;
 }
 
@@ -11,7 +11,10 @@ html, body {
     margin: 0;
 }
 
-
+header {
+    background-color: darkolivegreen;
+    border-radius: 10px;
+}
 
 body::before {
     content: "";
@@ -23,4 +26,3 @@ body::before {
     filter: blur(8px);
     z-index: -1;
 }
-
